@@ -128,61 +128,51 @@ public class AospThemeImpl implements Theme {
 
   @Override
   public @ColorInt int getColorIcon() {
-    Assert.checkArgument(colorIcon != -1);
     return colorIcon;
   }
 
   @Override
   public @ColorInt int getColorIconSecondary() {
-    Assert.checkArgument(colorIconSecondary != -1);
     return colorIconSecondary;
   }
 
   @Override
   public @ColorInt int getColorPrimary() {
-    Assert.checkArgument(colorPrimary != -1);
     return colorPrimary;
   }
 
   @Override
   public int getColorPrimaryDark() {
-    Assert.checkArgument(colorPrimaryDark != -1);
     return colorPrimaryDark;
   }
 
   @Override
   public @ColorInt int getColorAccent() {
-    Assert.checkArgument(colorAccent != -1);
     return colorAccent;
   }
 
   @Override
   public @ColorInt int getTextColorSecondary() {
-    Assert.checkArgument(textColorSecondary != -1);
     return textColorSecondary;
   }
 
   @Override
   public @ColorInt int getTextColorPrimary() {
-    Assert.checkArgument(textColorPrimary != -1);
     return textColorPrimary;
   }
 
   @Override
   public @ColorInt int getColorTextOnUnthemedDarkBackground() {
-    Assert.checkArgument(colorTextOnUnthemedDarkBackground != -1);
     return colorTextOnUnthemedDarkBackground;
   }
 
   @Override
   public @ColorInt int getColorIconOnUnthemedDarkBackground() {
-    Assert.checkArgument(colorIconOnUnthemedDarkBackground != -1);
     return colorIconOnUnthemedDarkBackground;
   }
 
   @Override
   public @ColorInt int getColorCallNotificationBackground() {
-    Assert.checkArgument(colorCallNotificationBackground != -1);
     return colorCallNotificationBackground;
   }
 }
